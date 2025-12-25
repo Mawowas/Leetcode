@@ -9,7 +9,6 @@ nums = [3, 3]
 respuesta = list()
 print(nums)
 
-
 def sumar_2_numeros(lista):
     i = 0
     j = 0
@@ -28,15 +27,6 @@ def usando_hash_map():
     lista_numeros = [2, 7, 11, 15]
     target = 9
     lista_respuesta = []
-
-    # print("\nUsando HashMap\n")
-    # for cont, cada_numero in enumerate(lista_numeros):
-    #     complemento = target - cada_numero
-    #     if complemento in diccionario:
-    #         lista_respuesta.append(diccionario.keys)
-    #     else:
-    #         diccionario[cont] = cada_numero
-    #     complemento = 0
 
     complemento = 0
     for i, cada_numero in enumerate(lista_numeros):
