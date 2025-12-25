@@ -23,6 +23,7 @@ It is guaranteed that the list represents a number that does not have leading ze
 
 
 
+"""arreglar el error de index"""
 def main():
     l1 = [9,9,9,9,9,9,9]
     l2 = [9,9,9,9]
